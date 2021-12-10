@@ -1,0 +1,9 @@
+[Defines]
+    INF_VERSION             = 0x00010006
+    BASE_NAME               = LinuxBoot
+    FILE_GUID               = 1FA91547-DB23-4F6A-8AF8-3B9782A7F917
+    MODULE_TYPE             = UEFI_APPLICATION
+    VERSION_STRING          = 1.0
+
+[Binaries.AArch64]
+    PE32|AArch64/Image|*
