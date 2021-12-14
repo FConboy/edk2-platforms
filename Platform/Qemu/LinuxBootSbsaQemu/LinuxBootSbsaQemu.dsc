@@ -1,4 +1,5 @@
 #
+#  Copyright (c) 2021, ARM Limited. All rights reserved.
 #  Copyright (c) 2021, NUVIA Inc. All rights reserved.
 #  Copyright (c) 2019, Linaro Limited. All rights reserved.
 #
@@ -11,15 +12,15 @@
 #
 ################################################################################
 [Defines]
-  PLATFORM_NAME                  = SbsaQemu
+  PLATFORM_NAME                  = LinuxBootSbsaQemu
   PLATFORM_GUID                  = feb0325c-b93d-4e47-8844-b832adeb9e0c
   PLATFORM_VERSION               = 0.1
   DSC_SPECIFICATION              = 0x00010005
-  OUTPUT_DIRECTORY               = Build/SbsaQemu
+  OUTPUT_DIRECTORY               = Build/LinuxBootSbsaQemu
   SUPPORTED_ARCHITECTURES        = AARCH64
   BUILD_TARGETS                  = DEBUG|RELEASE|NOOPT
   SKUID_IDENTIFIER               = DEFAULT
-  FLASH_DEFINITION               = Platform/Qemu/SbsaQemu/linuxboot/LbootSbsaQemu.fdf
+  FLASH_DEFINITION               = Platform/Qemu/LinuxBootSbsaQemu/LinuxBootSbsaQemu.fdf
 
   #
   # Defines for default states.  These can be changed on the command line.
